@@ -1,0 +1,38 @@
+h1 {
+    color:red;
+    border: 1px;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* Genral Button design */
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+}
+
+#plus-btn {
+    color: red;
+    top: 130px;
+    right: 550px;
+    position: absolute;
+}
+
+#minus-btn {
+    color: blue;
+    top: 130px;
+    left: 550px;
+    position: absolute;    
+}
