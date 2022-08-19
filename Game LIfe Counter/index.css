@@ -8,13 +8,6 @@ html{
     padding: 10px 10px;
     background: rgb(171, 255, 200);
 }
-.c2{
-    height: 300px;
-    width: 300px;
-    margin: 10px auto;
-    padding: 10px 10px;
-    background: rgb(255, 219, 61);
-}
 
 /* Genral Button design */
 button {
@@ -52,18 +45,14 @@ p {
 
 }
 
-#plus-btn, #plus-btn2{
+#plus-btn {
     color: red;
-    /* top: 130px; */
-    /* right: 550px; */
     float: left;
-    /* position: absolute; */
+    margin: auto;
 }
 
 #minus-btn, #minus-btn2{
     color: blue;
-    /* top: 130px;
-    left: 550px; */
     float: right;
-    /* position: absolute;     */
+margin: auto;
 }
