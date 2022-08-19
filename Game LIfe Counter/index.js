@@ -1,21 +1,35 @@
-// This App is a basic webapp for games for tracking your life total
-
-let lifeEl = document.getElementById("life-el")
-
-// let plusButton = document.getElementById("plus-btn")
-// let subtractButton = document.getElemtentById("minus-btn")
-
-let lifeTotal = 20
+const LifeP = document.getElementById("life-p");
+const LifeP2 = document.getElementById("life-p2");
+const buttonChoice = document.querySelectorAll("button");
+let lifeTotal = 20 ;
 
 
-//adding 1 life to the life total
-function addLife(){
-   lifeTotal += 1
-   lifeEl.textContent = lifeTotal
-}
+// buttonChoice.forEach(buttonC => buttonC.addEventListener("click", (e) => {
+//    if (e.target.id === "plus-btn") {
+//       lifeTotal += 1
+//    LifeP.textContent = lifeTotal
+//       lifeTotal.textContent += 1
+//    } else if(e.target.id === "minus-btn"){
+//       lifeTotal -= 1
+//       LifeP.textContent = lifeTotal
+//    }
+// }))
 
-//subtracting 1 life form the life total
-function minuslife(){
-   lifeTotal -= 1
-   lifeEl.textContent = lifeTotal
-}
+buttonChoice.forEach(buttonC => buttonC.addEventListener("click", (e) => {
+      if (e.target.id === "plus-btn") {
+         lifeTotal += 1
+      LifeP.textContent = lifeTotal
+         lifeTotal.textContent += 1
+   }  else if(e.target.id === "minus-btn"){
+         lifeTotal -= 1
+         LifeP.textContent = lifeTotal
+         // second section
+   }else if (e.target.id === "plus-btn2") {
+         lifeTotal += 1
+      LifeP2.textContent = lifeTotal
+         lifeTotal.textContent += 1
+   }  else if(e.target.id === "minus-btn2"){
+         lifeTotal -= 1
+         LifeP2.textContent = lifeTotal
+   }
+}))

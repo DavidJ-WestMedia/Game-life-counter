@@ -1,8 +1,46 @@
-h1 {
+html{
+    background: rgb(241, 254, 241);
+}
+.container{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    background: rgb(171, 255, 200);
+}
+.c2{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    background: rgb(255, 219, 61);
+}
+
+/* Genral Button design */
+button {
+    width: 35px;
+    height: 35px;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 10%;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+button:hover{
+    background: rgba(234, 233, 233);
+}
+
+button:active{
+    background: rgba(218, 217, 217, 0.831);
+}
+
+ .title{
     color:red;
     border: 1px;
     text-align: center;
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -14,25 +52,18 @@ p {
 
 }
 
-/* Genral Button design */
-button {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-    background-color: rgb(255, 255, 255);
-    width: 30px;
-}
-
-#plus-btn {
+#plus-btn, #plus-btn2{
     color: red;
-    top: 130px;
-    right: 550px;
-    position: absolute;
+    /* top: 130px; */
+    /* right: 550px; */
+    float: left;
+    /* position: absolute; */
 }
 
-#minus-btn {
+#minus-btn, #minus-btn2{
     color: blue;
-    top: 130px;
-    left: 550px;
-    position: absolute;    
+    /* top: 130px;
+    left: 550px; */
+    float: right;
+    /* position: absolute;     */
 }
